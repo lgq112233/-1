@@ -1,0 +1,39 @@
+object Form9: TForm9
+  Left = 638
+  Top = 308
+  Width = 268
+  Height = 161
+  Color = clMoneyGreen
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 16
+    Width = 185
+    Height = 41
+    Alignment = taCenter
+    AutoSize = False
+    Caption = #19978#20256#25104#21151
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = #26999#20307
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 88
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = #30830#35748
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end

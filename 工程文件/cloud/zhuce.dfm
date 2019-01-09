@@ -1,0 +1,104 @@
+object Form2: TForm2
+  Left = 631
+  Top = 176
+  Width = 424
+  Height = 357
+  Color = clMoneyGreen
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 120
+    Top = 24
+    Width = 153
+    Height = 33
+    Alignment = taCenter
+    AutoSize = False
+    Caption = #27880#20876
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = #26999#20307
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 144
+    Width = 89
+    Height = 33
+    Alignment = taCenter
+    AutoSize = False
+    Caption = #23494#30721
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = #26999#20307
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 88
+    Width = 89
+    Height = 33
+    Alignment = taCenter
+    AutoSize = False
+    Caption = #29992#25143#21517
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = #26999#20307
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 168
+    Top = 88
+    Width = 185
+    Height = 33
+    AutoSize = False
+    TabOrder = 0
+    Text = '20'#20197#20869#33521#25991#65292#23383#31526#25110#25968#23383
+    OnClick = Edit1Click
+  end
+  object Edit2: TEdit
+    Left = 168
+    Top = 144
+    Width = 185
+    Height = 33
+    AutoSize = False
+    TabOrder = 1
+    Text = '20'#20197#20869#33521#25991#65292#23383#31526#25110#25968#23383
+    OnClick = Edit2Click
+  end
+  object Button1: TButton
+    Left = 80
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = #27880#20876
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 224
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = #21462#28040
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object ADOQuery1: TADOQuery
+    Connection = Form1.con1
+    Parameters = <>
+    Left = 360
+    Top = 32
+  end
+end
